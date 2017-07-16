@@ -1,48 +1,40 @@
 body {
     background-color: black;
 }
+
 .title-image {
     position: center;
     height: 30%;
 }
+
 .align-center {
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
 }
+
 .div-sub-title {
     margin-top: 10px;
     display: flex;
     flex-flow: row;
     align-items: center;
     justify-content: center;
-    font-size: 15px;
+    /*font-size: 100%;*/
 }
+
 .title-text {
     font-size: 30px;
     color: white;
-    /*-webkit-animation:colorchange 12s infinite alternate;*/
 }
+
 .link-style {
     text-decoration: none;
     color: white;
 }
+
 .border-divider {
     margin-left: 10px;
     padding-left: 10px;
     border-left: thin solid white;
 }
-
-/* Use the above webkit instruction to use animation of colors */
-/*@-webkit-keyframes colorchange {*/
-    /*0% {*/
-        /*color: firebrick;*/
-    /*}*/
-    /*50% {*/
-        /*color: firebrick;*/
-    /*}*/
-    /*100% {*/
-        /*color: firebrick;*/
-    /*}*/
-/*}*/

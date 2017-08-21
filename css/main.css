@@ -59,7 +59,9 @@ footer {
 
 .border-divider-none, .border-divider-left {
     width: 100%;
+    margin-bottom: 2vw;
 }
+
 
 @media only screen and (min-width: 768px) {
 
